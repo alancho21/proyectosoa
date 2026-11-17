@@ -17,4 +17,4 @@ Como desarrollador principal del cliente web, lideré la creación e integració
 
 ### 📱 Prototipo Móvil (React Native)
 Intentamos expandir el sistema a una aplicación móvil multiplataforma usando tecnologías web. El repositorio con el código fuente del cliente móvil (actualmente archivado y no funcional) puede consultarse aquí para revisión arquitectónica:
-👉 **[Ver Prototipo Móvil (React Native)](https://github.com/alancho21/moviles-panaderia)** *(Nota: Ajusta este link al nombre de tu repo móvil).*
+👉 **[Ver Prototipo Móvil (React Native)]((https://github.com/alancho21/ProyectoSoaMovil))

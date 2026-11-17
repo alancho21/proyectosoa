@@ -1,17 +1,20 @@
-<<<<<<< HEAD
-# React + Vite
+# 🥖 Panadería Potros - Sistema POS y Gestión E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desarrollo Frontend del sistema integral de administración y punto de venta para "Panadería Potros". Construido con **React** y **Vite**, este sistema está diseñado para manejar el ciclo completo del negocio: desde el control de inventarios hasta el corte de caja y reportes analíticos.
 
-Currently, two official plugins are available:
+### 🧑‍💻 Mi Rol y Aportaciones (Commits por @alancho21)
+Como desarrollador principal del cliente web, lideré la creación e integración de los siguientes módulos:
+- **Módulo de Ventas (POS):** Carrito de compras interactivo con validación de stock en tiempo real, cálculo de totales y generación automática de tickets de impresión HTML.
+- **Módulo de Reportes Analíticos:** Dashboard interactivo que filtra datos por fechas, vendedores y productos. Implementación de funciones puras en JavaScript para exportar reportes directamente a CSV y PDF.
+- **Gestión de Usuarios y Roles:** Vistas protegidas (`RequireAuth`) para roles de Administrador, Vendedor y Cliente, con un panel completo de CRUD y asignación de permisos.
+- **Consumo de APIs Híbridas:** Configuración de instancias de Axios e interceptores (Bearer Tokens) para consumir simultáneamente un backend en Node.js/MongoDB y un catálogo de productos en PHP/Laravel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🛠️ Tecnologías Utilizadas
+- **Core:** React 19, React Router DOM v7, Vite.
+- **Estilos:** Tailwind CSS (Custom themes, degradados y utilidades de opacidad), CSS Modules.
+- **Peticiones HTTP:** Axios (con interceptores personalizados).
+- **Notificaciones:** React Toastify.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Nueva rama principal
-Este es un archivo README temporal para activar esta rama.
->>>>>>> 709ad20913eb3dc2d26a8c31a9010d758d93794e
+### 📱 Prototipo Móvil (React Native)
+Intentamos expandir el sistema a una aplicación móvil multiplataforma usando tecnologías web. El repositorio con el código fuente del cliente móvil (actualmente archivado y no funcional) puede consultarse aquí para revisión arquitectónica:
+👉 **[Ver Prototipo Móvil (React Native)](https://github.com/alancho21/moviles-panaderia)** *(Nota: Ajusta este link al nombre de tu repo móvil).*
